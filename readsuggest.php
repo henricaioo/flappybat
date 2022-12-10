@@ -91,7 +91,7 @@
                 if($num_rows > 0){
                     while($dados = mysqli_fetch_assoc($res)){
                         echo "<div class='sug'><div class='user'>
-                        <img src='../assets/favico.ico' alt='icon_user'>
+                        <img src='favico.ico' alt='icon_user'>
                         <p>". $dados['username'] ."</p>
                         <a class='btn btn-danger m-2' href='delestesuggest.php?cod=". $dados["id_sugestao"] ."'>
                             Excluir
