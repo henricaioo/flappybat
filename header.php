@@ -19,6 +19,6 @@
         </ul>
       </div>
     </div>
-    <a class="d-flex me-5 d-none d-lg-inline play" href="adm/login.php">Jogar</a>
+    <a class="d-flex me-5 d-none d-lg-inline play" href="login.php">Jogar</a>
   </nav>
 </header>
