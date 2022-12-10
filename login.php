@@ -10,13 +10,13 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../style32.css">
-        <link rel="shortcut icon" href="../assets/favico.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style32.css">
+        <link rel="shortcut icon" href="favico.ico" type="image/x-icon">
     </head>
     <body>
         <main id="mainLogin">
             <section style="min-height: 100vh;" class="container d-flex flex-column align-items-center justify-content-center">
-                <img style="height: 128px; margin-bottom: 2%;" class="img-fluid" src="../assets/logoanim.gif" alt="  ">
+                <img style="height: 128px; margin-bottom: 2%;" class="img-fluid" src="logoanim.gif" alt="  ">
                 <form class="col-12 col-lg-6" style="background-color: #3F374F; border-radius: 50px;" method="POST" action="verificalogin.php">
                     <div class="row mt-4 py-3 px-5">
                         <label for="nickname" class="form-label p-0 ms-2 text-white">Nickname</label>
@@ -28,7 +28,7 @@
                     </div>
                     <div class="btn-group p-0 ms-2 my-5 w-100" role="group" aria-label="Basic example">
                         <div style="gap:20px;" class="d-flex flex-column align-items-center justify-content-center flex-md-row justify-content-md-end pe-sm-5 row w-100">
-                            <a class="col-8 col-md-4" href="../register.php">Cadastre-se</a>
+                            <a class="col-8 col-md-4" href="register.php">Cadastre-se</a>
                             <button class="col-8 col-md-4" type="submit">Entrar</button>
                         </div>
                     </div>
