@@ -15,9 +15,9 @@
 </head>
 
 <body>
-    <?php include("templates/header.php"); ?>
+    <?php include("header.php"); ?>
     <main id="mainRateUs">
-        <?php include("templates/playnow.php"); ?>
+        <?php include("playnow.php"); ?>
 
         <section>
             <div class="divTitulo mb-4">
