@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../assets/favico.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favico.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
@@ -58,6 +58,6 @@
     <a href="logout.php">Sair</a>
     <canvas id="game" width="320" height="480"></canvas>
     <h1 class="text-center">Aperte espaço para jogar!!!</h1>
-    <script src="./game3.js"></script>
+    <script src="game3.js"></script>
 </body>
 </html>
