@@ -1,7 +1,7 @@
 <header>
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-        <img src="./assets/logoanim.gif" class="navbar-brand me-5 img-fluid rounded" alt="">
+        <img src="logoanim.gif" class="navbar-brand me-5 img-fluid rounded" alt="">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
