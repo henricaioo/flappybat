@@ -1,8 +1,8 @@
 const sprites = new Image()
-sprites.src = "./spritesheet.png"
+sprites.src = "spritesheet.png"
 
 const hit = new Audio()
-hit.src = "./effects/hit.wav"
+hit.src = "hit.wav"
 
 const canvas = document.getElementById("game")
 const ctx = canvas.getContext("2d")
