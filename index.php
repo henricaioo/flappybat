@@ -15,15 +15,15 @@
 </head>
 
 <body id="bdIndex">
-  <?php include("header.php"); ?>
+  <?php include("./templates/header.php"); ?>
   <main id="indexMain" class="mb-5">
-    <?php include("playnow.php"); ?>
+    <?php include("./templates/playnow.php"); ?>
     <section class="container">
       <h1 class="row fw-bold mb-5 d-flex justify-content-center">Bem-vindo(a) ao Flappy Bat!!!</h1>
       <div class="row row-cols-1 mt-3 row-cols-md-3 g-4">
         <div class="col">
           <div class="card">
-            <img src="surprise.png" class="card-img-top" alt="...">
+            <img src="./assets/surprise.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Futuras atualizações</h5>
               <p class="card-text">Pretendemos implementar uma loja no jogo, a fim de que os jogadores adquiram visuais que mais os agradam quando utilizados.</p>
@@ -32,7 +32,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="surprise.png" class="card-img-top" alt="...">
+            <img src="./assets/surprise.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Skin misteriosa em breve</h5>
               <p class="card-text">Os desenvolvedores estão discutindo e preparando uma nova skin, que chegará em breve ao jogo. Comece a juntar suas Batcoins!!!</p>
@@ -41,7 +41,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="surprise.png" class="card-img-top" alt="...">
+            <img src="./assets/surprise.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Notas de atualização</h5>
               <p class="card-text">O jogo passará a gerar Power Ups durante as partidas por tempo limitado a fim de testes, os quais podem ficar permanentemente no jogo. Experimente agora!</p>
@@ -51,7 +51,7 @@
       </div>
     </section>
   </main>
-  <?php include("footer.php"); ?>
+  <?php include("./templates/footer.php"); ?>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 
