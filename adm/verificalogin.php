@@ -2,7 +2,6 @@
     session_start();
     require "connect.php";
     $sql = "SELECT * ,count(*) as total FROM usuario WHERE (username = '".$_POST['nickname']."' AND senha = '".$_POST['senha']."')";
-    echo $sql;
     $res = mysqli_query($connect, $sql);
     $dados = mysqli_fetch_assoc($res);
 

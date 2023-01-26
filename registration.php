@@ -19,7 +19,6 @@
 
 
     $sql_insert = "INSERT INTO usuario (username, email, pais, senha) VALUES ('$username', '$email' , '$pais' , '$senha')";
-    echo $sql_insert;
 
 
 
