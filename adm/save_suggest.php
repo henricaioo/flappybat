@@ -1,4 +1,10 @@
 <?php 
+  session_start();
+  if (!$_SESSION['logado'] || $_SESSION['perfil'] != 'adm') {
+    header("Location:login.php");
+  }
+?>
+<?php 
     require("connect.php");
     $cod = (isset($_GET['cod'])) ? $_GET['cod'] : "";
     $sql = "UPDATE avalie_nos 

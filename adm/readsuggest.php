@@ -1,3 +1,9 @@
+<?php 
+  session_start();
+  if (!$_SESSION['logado'] || $_SESSION['perfil'] != 'adm') {
+    header("Location:login.php");
+  }
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -54,15 +60,6 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#">Início</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="icones.html">Ícones</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="skins.html">Skins</a>
-              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Sugestões
@@ -73,7 +70,7 @@
                 </ul>
               </li>
             </ul>
-            <a href="logoutAdmin.php" class="btn btn-danger">Encerrar sessão</a>
+            <a href="logout.php" class="btn btn-danger">Encerrar sessão</a>
           </div>
         </div>
       </nav>
