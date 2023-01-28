@@ -24,7 +24,7 @@
 
     if(mysqli_query($connect,$sql_insert)){
 
-        // header("location: index.php");
+        header("location: index.php");
 
     }else{
 
