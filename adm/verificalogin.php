@@ -16,9 +16,10 @@
 
     $sql = "SELECT * FROM usuario WHERE (username = '".$nickname."' AND senha = '".$senha."')";
     $res = mysqli_query($connect, $sql);
+    $count = mysqli_num_rows ($res);
     $dados = mysqli_fetch_assoc($res);
 
-    if($dados['total'] > 0){    
+    if($count > 0){    
         $_SESSION['nickname'] = $dados['username'];
         $_SESSION['perfil'] = "usuario"; 
         $_SESSION['logado'] = TRUE;
