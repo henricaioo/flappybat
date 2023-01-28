@@ -14,7 +14,7 @@
     $adm4 = 'tiago.moraes';
     $senha4 = '101112';
 
-    $sql = "SELECT * ,count(*) as total FROM usuario WHERE (username = '".$nickname."' AND senha = '".$senha."')";
+    $sql = "SELECT * FROM usuario WHERE (username = '".$nickname."' AND senha = '".$senha."')";
     $res = mysqli_query($connect, $sql);
     $dados = mysqli_fetch_assoc($res);
 
